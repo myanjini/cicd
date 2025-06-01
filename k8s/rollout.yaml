@@ -22,4 +22,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: my-image:v2
+          image: ghcr.io/myanjini/my-app:latest
+          ports:
+          - containerPort: 8080
